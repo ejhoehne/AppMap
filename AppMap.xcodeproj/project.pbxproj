@@ -15,6 +15,7 @@
 		71CA535019DCA6B700F1638C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CA534F19DCA6B700F1638C /* Images.xcassets */; };
 		71CA535319DCA6B700F1638C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CA535119DCA6B700F1638C /* LaunchScreen.xib */; };
 		71CA535F19DCA6B700F1638C /* AppMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA535E19DCA6B700F1638C /* AppMapTests.m */; };
+		BA83D32519DCF5170066A7BD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA83D32419DCF5170066A7BD /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		71CA535819DCA6B700F1638C /* AppMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA535D19DCA6B700F1638C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71CA535E19DCA6B700F1638C /* AppMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMapTests.m; sourceTree = "<group>"; };
+		BA83D32319DCF5170066A7BD /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		BA83D32419DCF5170066A7BD /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		71CA533E19DCA6B700F1638C /* AppMap */ = {
 			isa = PBXGroup;
 			children = (
+				BA83D32319DCF5170066A7BD /* ThirdViewController.h */,
+				BA83D32419DCF5170066A7BD /* ThirdViewController.m */,
 				71CA534319DCA6B700F1638C /* AppDelegate.h */,
 				71CA534419DCA6B700F1638C /* AppDelegate.m */,
 				71CA534619DCA6B700F1638C /* FirstViewController.h */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71CA534B19DCA6B700F1638C /* SecondViewController.m in Sources */,
+				BA83D32519DCF5170066A7BD /* ThirdViewController.m in Sources */,
 				71CA534519DCA6B700F1638C /* AppDelegate.m in Sources */,
 				71CA534819DCA6B700F1638C /* FirstViewController.m in Sources */,
 				71CA534219DCA6B700F1638C /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				71CA536419DCA6B700F1638C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71CA536519DCA6B700F1638C /* Build configuration list for PBXNativeTarget "AppMapTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				71CA536719DCA6B700F1638C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
